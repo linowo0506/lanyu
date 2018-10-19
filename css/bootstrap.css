@@ -79,11 +79,11 @@ p {
 
 .container {
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
+  /* padding-right: 20px;
+  padding-left: 20px; */
   margin-right: auto;
   margin-left: auto;
-  max-width: 1220px;
+  max-width: 1280px;
   position: relative;
 }
 
@@ -101,8 +101,8 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
 }
 
 .col-md,
