@@ -31,7 +31,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../image/home/home_bg.png);
+    background-image: url(../img/home/home_bg.png);
     background-size: cover;
     background-position: center;
     z-index: -100;
@@ -182,7 +182,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../image/view/view_bg.png);
+    background-image: url(../img/view/view_bg.png);
     background-size: cover;
     background-position: center;
     z-index: -100;
@@ -240,7 +240,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../image/menu/menu_bg.jpg);
+    background-image: url(../img/menu/menu_bg.jpg);
     background-size: cover;
     background-position: center;
     z-index: -100;
@@ -327,7 +327,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../image/contact/contact_bg.png);
+    background-image: url(../img/contact/contact_bg.png);
     background-size: cover;
     background-position: center;
     z-index: -100;
