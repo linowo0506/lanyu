@@ -96,8 +96,11 @@
 
 .nav_bottom_bar {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     left: 0;
-    top: 103px;
+    top: 106px;
 }
 
 @media (max-width:992px) {
