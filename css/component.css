@@ -264,11 +264,12 @@
 
 .menu img {
     width: auto;
-    max-height: 80vh;
-    /* margin-right: -10vh; */
+    max-height: 60vh;
+    /* margin-right: 50vh; */
 }
 
-.menu_select {
+.menu_select,
+.menu_select_page {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
     z-index: 5000;
     position: absolute;
@@ -286,7 +287,8 @@
     align-items: center;
 }
 
-.menu_select a {
+.menu_select a,
+.menu_select_page a {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     color: white;
@@ -296,7 +298,8 @@
     font-weight: 400;
 }
 
-.menu_select a:hover {
+.menu_select a:hover,
+.menu_select_page a:hover {
     color: #888;
 }
 
