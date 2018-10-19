@@ -314,7 +314,7 @@
     .menu_select {
         position: fixed;
         left: 0vw;
-        top: 15vh;
+        /* top: 15vh; */
         margin-left: 32px;
         padding-right: 32px;
     }
