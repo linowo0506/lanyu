@@ -11,7 +11,7 @@
 html {
     line-height: 1.15;
     /* 1 */
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: auto;
     /* 2 */
     background-color: #000;
 }
@@ -25,6 +25,9 @@ html {
 
 body {
     margin: 0;
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /**
@@ -61,7 +64,7 @@ hr {
  */
 
 pre {
-    font-family: monospace, monospace;
+    font-family: "cwTeXKai", serif;
     /* 1 */
     font-size: 1em;
     /* 2 */
@@ -77,6 +80,7 @@ pre {
 a {
     background-color: transparent;
     text-decoration: none;
+    /* line-height: 40px; */
 }
 
 /**
@@ -110,7 +114,8 @@ strong {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace;
+    font-family: "cwTeXKai",
+        serif;
     /* 1 */
     font-size: 1em;
     /* 2 */
@@ -372,3 +377,5 @@ template {
 [hidden] {
     display: none;
 }
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
