@@ -340,11 +340,12 @@
 
 
 .contact_right {
-    top: 35vh;
+    top: 40vh;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30%;
 }
 
 .contact_content img {
@@ -354,7 +355,7 @@
 
 @media(max-width:768px) {
     .contact_right {
-        top: 40vh;
+        top: 30vh;
     }
 
     .contact_content {
@@ -373,7 +374,7 @@
 ---------------------------*/
 
 footer {
-    padding-top: 10px;
+    padding-top: 16px;
     padding-bottom: 10px;
     background-color: #000;
     position: absolute;
@@ -387,19 +388,24 @@ footer {
 
 
 .address {
-    line-height: 14px;
+    line-height: 16px;
     float: left;
-    font-size: 9px;
+    font-size: 14px;
     color: #888;
     text-align: left;
     margin-left: 12%;
     margin-right: 12%;
 }
 
+#phone-text {
+    color: #fff;
+    text-decoration: none;
+}
+
 .Copyright {
     line-height: 14px;
     float: right;
-    font-size: 9px;
+    font-size: 14px;
     color: #888;
     text-align: right;
     margin-right: 12%;
@@ -412,18 +418,35 @@ footer {
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 60px;
+        height: 50px;
         width: 100%;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 12px;
+    }
+
+    .address {
+        line-height: 14px;
+        float: left;
+        font-size: 12px;
+        color: #888;
+        text-align: left;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .Copyright {
+        line-height: 14px;
+        float: left;
+        font-size: 12px;
+        color: #888;
+        text-align: left;
+        margin-right: 12%;
+        margin-left: 12%;
     }
 
     footer span {
-        font-size: 6px;
-        color: #888;
         display: flex;
         justify-content: center;
-        /* margin: 5px; */
         text-decoration: none;
     }
 }
